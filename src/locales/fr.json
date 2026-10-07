@@ -1,0 +1,54 @@
+{
+	"nav": {
+		"projects": "Projets",
+		"education": "Formation",
+		"contact": "Contact"
+	},
+	"menu": {
+		"title": "Développeur Logiciel & Web",
+		"subtitle": "Étudiant à Epitech, passionné par le développement full-stack, l'ingénierie logicielle et la création de jeux vidéo (Unity / C#). Actuellement en recherche de stage pour février 2027.",
+		"cvButton": "Voir le CV"
+	},
+	"projectsSection": {
+		"title": "Mes Projets",
+		"sourceCode": "Code Source",
+		"privateRepo": "Dépôt Privé",
+		"entropyloop": {
+			"role": "Projet de fin d'études",
+			"description": "Jeu vidéo développé dans le cadre de mon projet de fin d'études."
+		},
+		"eclipse": {
+			"role": "",
+			"description": ""
+		},
+		"sitewab": {
+			"role": "",
+			"description": ""
+		}
+	},
+	"educationSection": {
+		"title": "Formations",
+		"epitech": "Expert en Technologies de l'Information / Logiciel (2022 - 2027)",
+		"inha": "Échange académique international — Informatique & Collaboration (2024)",
+		"ionisstm": "ionis stm",
+		"lla": "bac Lycée Louis Armand"
+	},
+	"experienceSection": {
+        "title": "Expérience Professionnelle & Stages",
+        "mbinformatique": {
+            "period": "",
+            "role": "",
+            "description": ""
+        },
+        "epitech": {
+            "period": "",
+            "role": "",
+            "description": ""
+        }
+    },
+	"contactSection": {
+		"title": "Contact",
+		"description": "Un projet, une question ? N'hésitez pas à m'écrire.",
+		"button": "Envoyer un e-mail"
+	}
+}
