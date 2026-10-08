@@ -10,35 +10,60 @@
 		"cvButton": "Voir le CV"
 	},
 	"projectsSection": {
-		"title": "Mes Projets",
-		"sourceCode": "Code Source",
-		"privateRepo": "Dépôt Privé",
-		"entropyloop": {
-			"role": "Projet de fin d'études",
-			"description": "Jeu vidéo développé dans le cadre de mon projet de fin d'études."
-		},
-		"eclipse": {
-			"role": "",
-			"description": ""
-		},
-		"sitewab": {
-			"role": "",
-			"description": ""
-		}
-	},
+        "title": "Mes Projets",
+        "sourceCode": "Code Source",
+        "privateRepo": "Dépôt Privé",
+        "entropyloop": {
+            "role": "Lead Technique / Projet de fin d'études",
+            "description": "Jeu vidéo de type deck-building auto-battler. En tant que lead technique, je pilote l'architecture logicielle, la mise en place des mécaniques de combat automatisé avec des unités 3D et l'optimisation des performances.",
+			"detail": {
+
+			}
+        },
+        "eclipse": {
+            "role": "RPG Monde Ouvert",
+            "description": "RPG en monde ouvert narratif où le joueur n'est pas le protagoniste central : l'univers évolue et l'histoire suit son cours de manière autonome. Intégration d'une IA locale avec Ollama pour des interactions dynamiques et poussées avec les PNJ.",
+			"detail": {
+
+			}
+        },
+        "sitewab": {
+            "role": "Créateur & Développeur Full-Stack",
+            "description": "Réseau social auto-hébergé reprenant l'ergonomie et les fonctionnalités de Discord. Hébergé localement et accessible de manière sécurisée via Tailscale pour communiquer avec mes proches.",
+			"detail": {
+
+			}
+        }
+    },
 	"educationSection": {
 		"title": "Formations",
-		"epitech": "Expert en Technologies de l'Information / Logiciel (2022 - 2027)",
-		"inha": "Échange académique international — Informatique & Collaboration (2024)",
-		"ionisstm": "ionis stm",
-		"lla": "bac Lycée Louis Armand"
+		"epitech": {
+			"degree": "Expert en ingénierie logicielle - EPITECH STRASBOURG",
+            "period": "2022 - 2027",
+			"description": "Cursus expert en 5 ans orienté architecture logicielle, conduite de projets complexes en autonomie, et apprentissage par la pratique."
+		},
+		"inha": {
+			"degree": "Electrical and Electronic Engineering - Inha University, Corée du Sud",
+            "period": "2025 - 2026",
+			"description": "Études en environnement multiculturel et travail en groupe avec des étudiants internationaux, entièrement en anglais."
+		},
+		"ionisstm": {
+			"degree": "TEACHING AND COACHING - Ionis STM STRASBOURG",
+            "period": "2024",
+			"description": "Développement de compétences en encadrement, prise de parole et animation d'événements pédagogiques"
+		},
+		"lla": {
+			"degree": "BACCALAURÉAT STI2D - Lycée Louis Armand à Mulhouse",
+            "period": "2022",
+			"description": "Baccalauréat technologique orienté vers les sciences et technologies de l'industrie et du développement durable"
+		}
 	},
 	"experienceSection": {
         "title": "Expérience Professionnelle & Stages",
         "mbinformatique": {
-            "period": "",
-            "role": "",
-            "description": ""
+            "period": "efsdf",
+            "role": "dsfds",
+            "description": "dsfdsf"
         },
         "epitech": {
             "period": "",
@@ -50,5 +75,9 @@
 		"title": "Contact",
 		"description": "Un projet, une question ? N'hésitez pas à m'écrire.",
 		"button": "Envoyer un e-mail"
+	},
+	"common": {
+		"back": "Retour",
+		"loading": "Chargement..."
 	}
 }
