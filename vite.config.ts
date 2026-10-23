@@ -5,4 +5,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.md'],
+  base: '/LucHL/',
+  build: {
+    chunkSizeWarningLimit: 1500,
+  },
 })

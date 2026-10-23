@@ -103,7 +103,7 @@ export default function Education() {
                             </Typography>
 
                             <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mt: 2 }}>
-                                {edu.stack.map((tech) => (
+                                {edu.stack && edu.stack.map((tech) => (
                                     <Chip
                                         key={tech}
                                         label={tech}

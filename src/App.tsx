@@ -48,7 +48,7 @@ function Layout() {
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/LucHL">
             <Routes>
                 <Route element={<Layout />}>
                     <Route path="/" element={<Home />} />
