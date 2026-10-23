@@ -12,7 +12,19 @@ export default function Navbar() {
     };
 
     return (
-        <AppBar position="sticky" color="default" elevation={1} sx={{ backgroundColor: 'background.paper' }}>
+        <AppBar
+            position="sticky"
+            color="default"
+            elevation={1}
+            sx={{
+                backgroundColor: 'rgba(18, 18, 24, 0.5)',
+                backdropFilter: 'blur(12px)',
+                WebkitBackdropFilter: 'blur(12px)',
+                borderBottom: '1px solid rgba(255, 255, 255, 0.12)',
+                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.4)',
+                color: '#ffffff'
+            }}
+        >
             <Toolbar sx={{ justifyContent: 'space-between', maxWidth: 'lg', width: '100%', mx: 'auto' }}>
                 
                 <Typography
@@ -25,8 +37,10 @@ export default function Navbar() {
                 </Typography>
 
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 1, sm: 3 } }}>
+                    <Button color="inherit" href="#me">{t('nav.me')}</Button>
                     <Button color="inherit" href="#projects">{t('nav.projects')}</Button>
                     <Button color="inherit" href="#education">{t('nav.education')}</Button>
+                    <Button color="inherit" href="#experience">{t('nav.experience')}</Button>
                     <Button color="primary" variant="contained" href="#contact" size="small">{t('nav.contact')}</Button>
                     
                     <Button 

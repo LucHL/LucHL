@@ -13,16 +13,16 @@ export const experiences: Experience[] = [
         stack: ["PHP", "Laravel", "HTML", "CSS", "JavaScript"]
     },
     {
-        id: "epitech",
-        company: "EPITECH Strasbourg",
+        id: "epitech2",
+        company: "EPITECH STRASBOURG",
         logoUrl: "/logos/epitech.png",
-        stack: ["C", "C++"]
+        stack: ["C", "C++", "Docker", "Public Speaking", "Mentoring", "Event Management"]
     },
     {
         id: "epitech",
-        company: "EPITECH Strasbourg",
+        company: "EPITECH STRASBOURG",
         logoUrl: "/logos/epitech.png",
-        stack: ["C", "C++"]
+        stack: ["C", "C++", "Docker", "Public Speaking", "Mentoring", "Event Management"]
     },
     {
         id: "mbinformatique",

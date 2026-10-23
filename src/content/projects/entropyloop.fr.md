@@ -1,7 +1,7 @@
 # Entropy Loop
 
 Jeu vidéo de type deck-building auto-battler. En tant que lead technique, je pilote l'architecture logicielle, la mise en place des mécaniques de combat automatisé avec des unités 3D et l'optimisation des performances.
-Ce projet est réaliser avec mon équipe composé de 6 personnes.
+Ce projet est réalisé avec mon équipe composée de 6 personnes.
 
 ## Logo
 
@@ -17,3 +17,7 @@ public void ResolveCombat(List<Unit> units) {
         unit.EvaluateTarget();
     }
 }
+```
+
+> **Page en création**  
+> Cette page est actuellement en construction. De nouvelles sections et extraits de code seront ajoutés très prochainement !

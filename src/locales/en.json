@@ -1,2 +1,99 @@
 {
+    "nav": {
+        "me": "About Me",
+        "projects": "Projects",
+        "education": "Education",
+        "experience": "Experience",
+        "contact": "Contact"
+    },
+    "menu": {
+        "title": "Software & Web Developer",
+        "subtitle": "Epitech student, passionate about full-stack development, software engineering, and game development (Unity / C#). Currently looking for an internship starting February 2027.",
+        "cvButton": "View Resume",
+        "cv": "Resume"
+    },
+    "projectsSection": {
+        "title": "My Projects",
+        "sourceCode": "Source Code",
+        "privateRepo": "Private Repository",
+        "entropyloop": {
+            "role": "Tech Lead & Developer",
+            "description": "Auto-battler deck-building video game. As tech lead, I manage the software architecture, the implementation of automated combat mechanics with 3D units, and performance optimization.",
+            "detail": {
+
+            }
+        },
+        "eclipse": {
+            "role": "Creator & Developer",
+            "description": "Narrative open-world RPG where the player is not the main protagonist: the world evolves and the story unfolds independently. Integrated a local AI with Ollama for dynamic and deep NPC interactions.",
+            "detail": {
+
+            }
+        },
+        "sitewab": {
+            "role": "Creator & Developer",
+            "description": "Self-hosted social network recreating Discord's UX and features. Locally hosted and securely accessible via Tailscale to communicate with friends and family.",
+            "detail": {
+
+            }
+        }
+    },
+    "educationSection": {
+        "title": "Education",
+        "epitech": {
+            "degree": "Master's Degree in Software Engineering - EPITECH STRASBOURG",
+            "period": "2022 - 2027",
+            "description": "5-year expert curriculum focused on software architecture, autonomous management of complex projects, and hands-on learning."
+        },
+        "inha": {
+            "degree": "Electrical and Electronic Engineering - Inha University, South Korea",
+            "period": "2025 - 2026",
+            "description": "Studies in a multicultural environment and teamwork with international students, fully taught in English."
+        },
+        "ionisstm": {
+            "degree": "TEACHING AND COACHING - Ionis STM STRASBOURG",
+            "period": "2024",
+            "description": "Degree in mentoring, public speaking, and leading educational workshops."
+        },
+        "lla": {
+            "degree": "STI2D HIGH SCHOOL DIPLOMA - Louis Armand High School, MULHOUSE",
+            "period": "2022",
+            "description": "Technological high school diploma focused on industry sciences, technologies, and sustainable development."
+        }
+    },
+    "experienceSection": {
+        "title": "Work Experience & Internships",
+        "el2i": {
+            "role": "INTERNSHIP",
+            "period": "09/2026 - 02/2026",
+            "description": "Module development for the ERP software: APEL WEB."
+        },
+        "epitech2": {
+            "role": "INTERNSHIP",
+            "period": "09/2024 - 02/2025",
+            "description": "Mentoring & Support: daily student guidance.\nCommunication: project presentations.\nEvents: organization and management of discovery workshops for 10th-grade students."
+        },
+        "epitech": {
+            "role": "INTERNSHIP",
+            "period": "04/2025 - 07/2025",
+            "description": "Mentoring & Support: daily student guidance.\nCommunication: project presentations.\nEvents: organization and management of discovery workshops for 10th-grade students."
+        },
+        "mbinformatique": {
+            "role": "INTERNSHIP",
+            "period": "08/2023 - 12/2023",
+            "description": "Module development for the Dolibarr ERP/CRM software."
+        }
+    },
+    "contactSection": {
+        "title": "Contact",
+        "description": "Have a project or a question? Feel free to reach out.",
+        "button": "Send an email"
+    },
+    "common": {
+        "back": "Back",
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "undefinedproject": "Project not found",
+        "summary": "Summary"
+    }
 }

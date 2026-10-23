@@ -7,9 +7,37 @@ import ProjectDetail from './pages/ProjectDetail';
 
 function Layout() {
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+        <Box
+            sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                minHeight: '100vh',
+                color: '#ffffff'
+            }}
+        >
             <CssBaseline />
+
+            {/* Background Image */}
+            <Box
+                component="img"
+                src="/background/menu.png"
+                alt="Background Menu Entropy Loop"
+                sx={{
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    zIndex: -1,
+                    pointerEvents: 'none',
+                    filter: 'brightness(0.65)',
+                }}
+            />
+
+            {/* Navigation Bar */}
             <Navbar />
+
             <Box component="main" sx={{ flexGrow: 1 }}>
                 <Outlet />
             </Box>

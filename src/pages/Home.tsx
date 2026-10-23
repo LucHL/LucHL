@@ -1,9 +1,10 @@
-import { Box, Divider } from '@mui/material';
+import { Box } from '@mui/material';
 import Projects from '../components/Projects';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 import Me from '../components/Me';
+import CustomDivider from '../components/CustomDivider';
 
 export default function Home() {
     return (
@@ -11,20 +12,20 @@ export default function Home() {
             {/* Profile */}
             <Me />
 
-            <Divider />
-
             {/* Projects list */}
             <Projects />
 
-            <Divider />
+            <CustomDivider />
 
             {/* Educations list */}
             <Education />
 
+            <CustomDivider />
+
             {/* Experiences list */}
             <Experience />
 
-            <Divider />
+            <CustomDivider />
 
             {/* Contact */}
             <Contact />
