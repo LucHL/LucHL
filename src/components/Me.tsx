@@ -130,7 +130,7 @@ export default function Me() {
 
                 <DialogContent dividers sx={{ p: 0, borderColor: 'rgba(255, 255, 255, 0.1)', overflow: 'hidden' }}>
                     <iframe
-                        src="/cv/CV_LUC_HELMLINGER_EN.pdf"
+                        src={`${import.meta.env.BASE_URL}cv/CV_LUC_HELMLINGER_EN.pdf`}
                         title="CV"
                         width="100%"
                         height="100%"
