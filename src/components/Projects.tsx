@@ -1,4 +1,5 @@
 import { Container, Typography, Box, Grid, Card, CardContent, Button, Chip } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { projects } from '../data/projectsData';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -53,7 +54,8 @@ export default function Projects() {
 
                                     {/* Title */}
                                     <Button
-                                        href={`/project/${project.id}`}
+                                        component={RouterLink}
+                                        to={`/project/${project.id}`}
                                         sx={{
                                             color: '#ffffff',
                                             p: 0,

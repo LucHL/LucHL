@@ -260,6 +260,17 @@ export default function ProjectDetail() {
                                         return <h3 id={id}>{children}</h3>;
                                     },
 
+                                    img: ({ src, alt }) => {
+                                        if (src?.startsWith('http') || src?.startsWith('blob')) {
+                                            return <img src={src} alt={alt || ''} />;
+                                        }
+
+                                        const cleanSrc = src?.startsWith('/') ? src.slice(1) : src;
+                                        const imageSrc = `${import.meta.env.BASE_URL}${cleanSrc}`;
+
+                                        return <img src={imageSrc} alt={alt || ''} />;
+                                    },
+
                                     // Put color when the text is Code
                                     code({ node, inline, className, children, ...props }: any) {
                                         const match = /language-(\w+)/.exec(className || '');

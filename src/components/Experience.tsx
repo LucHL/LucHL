@@ -71,7 +71,7 @@ export default function Experience() {
                             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 1.5 }}>
                                 <Box
                                     component="img"
-                                    src={exp.logoUrl}
+                                    src={`${import.meta.env.BASE_URL}background/${exp.logoUrl}.png`}
                                     alt={exp.company}
                                     sx={{
                                         width: 40,

@@ -71,7 +71,7 @@ export default function Education() {
                             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 1.5 }}>
                                 <Box
                                     component="img"
-                                    src={edu.logoUrl}
+                                    src={`${import.meta.env.BASE_URL}background/${edu.logoUrl}.png`}
                                     alt={edu.schoolName}
                                     sx={{
                                         width: 40,

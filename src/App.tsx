@@ -20,7 +20,7 @@ function Layout() {
             {/* Background Image */}
             <Box
                 component="img"
-                src="/background/menu.png"
+                src={`${import.meta.env.BASE_URL}background/menu.png`}
                 alt="Background Menu Entropy Loop"
                 sx={{
                     position: 'fixed',
