@@ -44,13 +44,14 @@ User authentication and profile management rely on secure token storage.
 - Server-side password hashing.
 - Uniqueness validation for email address and username.
 
+![me](/projects/sitewab/me.jpg)
+
 ### Login
 - Credential-based authentication (email/password).
 - Reception and storage of JWT tokens (HttpOnly cookie).
 - Automatic redirection to the main dashboard after successful authentication.
 
-![Register](/projects/sitewab/register.png)
-![login](/projects/sitewab/login.png)
+![login](/projects/sitewab/login.jpg)
 
 ---
 
@@ -58,14 +59,12 @@ User authentication and profile management rely on secure token storage.
 
 Channels allow structuring conversations by topic or team.
 
-![Channel](/projects/sitewab/channel.png)
+![Channel](/projects/sitewab/channel_info.jpg)
 
 ### Adding Users
 - Dynamic user search by name or ID.
 - Selection modal to add one or multiple members to an existing channel.
 - Real-time notification of membership addition to targeted users.
-
-![AddUser](/projects/sitewab/add-user.png)
 
 ### Removing Users
 - Role management (Channel Administrator / Member).
@@ -87,7 +86,11 @@ Main real-time messaging module powered by WebSockets / Socket.IO.
 - **GIFs:** Integrated GIF picker (Giphy API) to enliven conversations.
 - **Images:** Pre-upload preview and interactive gallery display within the chat thread.
 
-![conv](/projects/sitewab/conv.png)
+![msg](/projects/sitewab/msg.jpg)
+*Here is a screenshot of a message and a GIF that were sent.*
+
+![unittest](/projects/sitewab/unittest.jpg)
+*Here are some unit tests written to display text in bold, italics, links, etc.*
 
 ---
 

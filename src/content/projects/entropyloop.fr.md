@@ -26,7 +26,8 @@ Face à l'absence d'artistes spécialisés dans l'équipe, nous avons opté pour
 
 Présentation du deck des Nains et du modèle 3D conçu en interne sur Blender:
 
-![nain](/projects/entropy-loop/model3D-nain.png)
+![dwarf](/projects/entropy-loop/dwarf.png)
+![dwarf2](/projects/entropy-loop/dwarf2.png)
 
 ## Choix de deck & Progression
 
@@ -42,7 +43,11 @@ La carte de chaque niveau est entièrement **générée de manière procédurale
 
 Aucun préfabriqué de terrain n'est posé à la main: l'ensemble de la topographie, des obstacles et de la structure de la carte repose sur des **calculs et formules mathématiques** exécutés au chargement. Cela garantit une rejouabilité infinie et des environnements uniques à chaque partie.
 
-![map1](/projects/entropy-loop/map1.png)
+![map](/projects/entropy-loop/map.png)
+*Exemple de map générer dans les premiers niveau.*
+
+![map2](/projects/entropy-loop/map2.png)
+*Exemple de map générer dans les niveaux plus avancé.*
 
 ---
 
