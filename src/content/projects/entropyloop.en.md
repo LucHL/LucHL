@@ -26,7 +26,8 @@ Due to the lack of specialized artists on the team, we opted for a **Low-Poly** 
 
 Presentation of the Dwarf deck and the 3D model designed in-house using Blender:
 
-![nain](/projects/entropy-loop/model3D-nain.png)
+![dwarf](/projects/entropy-loop/dwarf.png)
+![dwarf2](/projects/entropy-loop/dwarf2.png)
 
 ## Deck Selection & Progression
 
@@ -42,7 +43,11 @@ Each level's map is entirely **procedurally generated**.
 
 No terrain prefabs are manually placed: the entire topography, obstacles, and map structure rely on **mathematical calculations and formulas** executed at runtime. This ensures infinite replayability and unique environments for every single match.
 
-![map1](/projects/entropy-loop/map1.png)
+![map](/projects/entropy-loop/map.png)
+*Example of a map generated in the early levels.*
+
+![map2](/projects/entropy-loop/map2.png)
+*Example of a map generated in more advanced levels.*
 
 ---
 

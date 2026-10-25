@@ -6,6 +6,9 @@ Eclipse is an open-world RPG developed in Unity, built around a living, reactive
 
 ## Entities
 
+![entity](/projects/eclipse/entity.png)
+*In this screenshot, you can see an NPC that was generated. On the right side of the screen is the (placeholder) sword, which was quickly modeled in Blender.*
+
 ### Entity Slicing
 
 The game features a dynamic and interactive combat system based on real-time physical slicing. Through the use of EzySlice, a left-click allows players to physically cleave entities and destructible meshes at the point of contact, providing direct and visceral visual feedback during combat.

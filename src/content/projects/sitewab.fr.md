@@ -44,13 +44,14 @@ La gestion de l'authentification et du profil utilisateur repose sur un stockage
 * Hachage des mots de passe géré côté serveur.
 * Validation d'unicité de l'adresse e-mail et du nom d'utilisateur.
 
+![me](/projects/sitewab/me.jpg)
+
 ### Connexion
 * Authentification via identifiants (e-mail/mot de passe).
 * Réception et stockage du token JWT (cookie HttpOnly).
 * Redirection automatique vers le tableau de bord principal après validation.
 
-![Register](/projects/sitewab/register.png)
-![login](/projects/sitewab/login.png)
+![login](/projects/sitewab/login.jpg)
 
 ---
 
@@ -58,14 +59,12 @@ La gestion de l'authentification et du profil utilisateur repose sur un stockage
 
 Les salons permettent de structurer les échanges par thématiques ou par équipes.
 
-![Channel](/projects/sitewab/channel.png)
+![Channel](/projects/sitewab/channel_info.jpg)
 
 ### Ajouter des utilisateurs
 * Recherche dynamique d'utilisateurs par nom ou identifiant.
 * Modale de sélection pour ajouter un ou plusieurs membres à un salon existant.
 * Notification en temps réel de l'ajout pour les utilisateurs concernés.
-
-![AddUser](/projects/sitewab/add-user.png)
 
 ### Supprimer des utilisateurs
 * Gestion des rôles (Administrateur du canal / Membre).
@@ -87,7 +86,11 @@ Module principal de messagerie en temps réel s'appuyant sur WebSockets / Socket
 * **Gifs :** Intégration d'un sélecteur de GIFs (Giphy API) pour animer les conversations.
 * **Images :** Prévisualisation avant envoi et affichage sous forme de galerie interactive dans le fil de discussion.
 
-![conv](/projects/sitewab/conv.png)
+![msg](/projects/sitewab/msg.jpg)
+*Voici une capture d'écran d'un message et d'un GIF qui a été envoyé.*
+
+![unittest](/projects/sitewab/unittest.jpg)
+*Voici des tests unitaires réalisé pour affiché du texte en gras, italiques, des liens etc.*
 
 ---
 
