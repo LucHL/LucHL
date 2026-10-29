@@ -17,7 +17,7 @@ export const projects: Project[] = [
     {
         id: "eclipse",
         title: "ECLIPSE",
-        stack: ["Unity", "C#", "Ollama (IA locale)"],
+        stack: ["Unity", "C#", "Ollama"],
         githubUrl: "https://github.com/LuchL/Eclipse",
         isPrivate: false,
     },

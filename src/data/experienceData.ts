@@ -10,7 +10,7 @@ export const experiences: Experience[] = [
         id: "el2i",
         company: "EL2I",
         logoUrl: "/logos/el2i.png",
-        stack: ["PHP", "Laravel", "HTML", "CSS", "JavaScript"]
+        stack: ["PHP", "Laravel", "HTML", "CSS", "JavaScript", "AI", "MCP"]
     },
     {
         id: "epitech2",
